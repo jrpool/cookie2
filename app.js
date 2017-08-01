@@ -80,8 +80,11 @@ app.get(
   '/',
   cookieParser(),
   (req, res) => {
-    if (req.cookies.userName) {
-      res.send(knownForm(req.cookies.userName));
+    if (req.cookies.userData) {
+      const userData = JSON.parse(req.cookies.userData);
+      res.send(knownForm(
+        userData.firstName, userData.lastName, userData.favoriteColor
+      ));
     }
     else {
       res.send(anonForm());
