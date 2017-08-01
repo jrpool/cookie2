@@ -20,11 +20,11 @@
     "eslint": "^4.0.0"
   },
   "bugs": {
-    "url": "https://github.com/jrpool/cookie1.git/issues"
+    "url": "https://github.com/jrpool/cookie2.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrpool/cookie1.git"
+    "url": "https://github.com/jrpool/cookie2.git"
   },
   "babel": {
     "presets": [
